@@ -1,0 +1,6 @@
+with_mask 57 126 100 180
+with_mask 187 87 222 134
+with_mask 302 86 330 129
+with_mask 330 129 361 170
+mask_weared_incorrect 270 104 287 137
+without_mask 157 108 177 139
