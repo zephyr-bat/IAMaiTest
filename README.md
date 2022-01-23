@@ -38,7 +38,7 @@ Ajouter le dataset de référence dans le dossier scripts.
 
 Indique quelles annotations utiliser.
 
-python coco_convert.py --input ./dossierEvaluation/_annotations.coco.json --output examTest.pkl
+python coco_convert.py --input ./test/_annotations.coco.json --output examTest.pkl
 
 Indique le chemin des annotation pour cocotools
 
