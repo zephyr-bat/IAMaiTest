@@ -1,6 +1,6 @@
 # IAMainTestGUILLERMELEBRETON
 
-##Installation
+## Installation
 (Nécessite python V3.6)
 
 Télécharger le git
@@ -16,14 +16,14 @@ pip install -r requirements.txt
 
 Mettre les poids d’entrainements dans le dossier data
 
-#Flux vidéo
+# Flux vidéo
 Transforme les poids en poids tensortflow
 python save_model.py --weights ./data/yolo-obj_final.weights --output ./checkpoints/WeightTensortflow-416 --input_size 416 --model yolov4
 
 Lance l'analyse du flux vidéo 
 python detect_video.py --weights ./checkpoints/ WeightTensortflow-416 --size 416 --model yolov4 --video 0 --output ./detections/results.avi
 
-#Evaluation cocotools
+# Evaluation cocotools
 
 Dans le CMD /dossier téléchargé/scripts
 
