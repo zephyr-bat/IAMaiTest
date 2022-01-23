@@ -1,0 +1,5 @@
+
+# Number of predicted objects per class
+mask_weared_incorrect: 91 (tp:68, fp:23)
+with_mask: 2628 (tp:2463, fp:165)
+without_mask: 574 (tp:472, fp:102)
