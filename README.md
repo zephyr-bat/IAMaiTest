@@ -32,7 +32,9 @@ python detect_video.py --weights ./checkpoints/WeightTensortflow-416 --size 416 
 
 # Evaluation cocotools
 
-Dans le CMD /dossier téléchargé/scripts
+Ajouter le dataset de référence
+
+cd scripts
 
 Indique quelles annotations utiliser.
 
