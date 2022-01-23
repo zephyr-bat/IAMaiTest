@@ -1,4 +1,4 @@
-# IAMainTestGUILLERMELEBRETON
+# IAMainTestGUILLERME_LEBRETON
 
 ## Installation
 (Nécessite python V3.6)
