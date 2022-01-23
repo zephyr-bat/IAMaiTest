@@ -23,13 +23,13 @@ Mettre les poids d’entrainements dans le dossier data
 
 Transforme les poids en poids tensortflow.
 
-python save_model.py --weights ./data/yolo-obj_final.weights --output ./checkpoints/WeightTensortflow-416 --input_size 416 --model yolov4
+python save_model.py --weights ./data/yolo-obj_final.weights --output ./checkpoints/custom-416 --input_size 416 --model yolov4
 
 # Flux vidéo
 
 Lance l'analyse du flux vidéo 
 
-python detect_video.py --weights ./checkpoints/WeightTensortflow-416 --size 416 --model yolov4 --video 0 --output ./detections/results.avi
+python detect_video.py --weights ./checkpoints/custom-416 --size 416 --model yolov4 --video 0 --output ./detections/results.avi
 
 # Evaluation cocotools
 
