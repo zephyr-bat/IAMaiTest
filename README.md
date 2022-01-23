@@ -50,6 +50,6 @@ Dans le dossier mAP/extra lancer
 
 python remove_space.py
 
-Pour lancer l'évaluation, retour dans le dossier principal taper
+Pour lancer l'évaluation, retour dans le dossier mAP, lancer
 
 python main.py --output results_yolov4_tf
