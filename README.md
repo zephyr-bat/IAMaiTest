@@ -35,7 +35,7 @@ python detect_video.py --weights ./checkpoints/WeightTensortflow-416 --size 416 
 
 cd scripts
 
-Ajouter le dataset de référence dans le dossier scripts.
+Ajouter le dataset de référence dans le dossier scripts/test et test.
 
 Indique quelles annotations utiliser.
 
@@ -47,12 +47,14 @@ python coco_annotation.py --coco_path ./
 
 cd ..
 
+Lancer l'évaluation
+
 python evaluate.py
 
 Dans le dossier mAP/extra lancer
 
 python remove_space.py
 
-Pour lancer l'évaluation, retour dans le dossier mAP, lancer
+Pour avoir les résultat, retour dans le dossier mAP, lancer
 
 python main.py --output results_yolov4_tf
