@@ -44,7 +44,7 @@ Indique le chemin des annotation pour cocotools
 
 python coco_annotation.py --coco_path ./
 
-Dans le dossier téléchargé lancer 
+cd ..
 
 python evaluate.py
 
