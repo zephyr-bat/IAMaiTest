@@ -28,7 +28,7 @@ python save_model.py --weights ./data/yolo-obj_final.weights --output ./checkpoi
 
 Lance l'analyse du flux vidéo 
 
-python detect_video.py --weights ./checkpoints/ WeightTensortflow-416 --size 416 --model yolov4 --video 0 --output ./detections/results.avi
+python detect_video.py --weights ./checkpoints/WeightTensortflow-416 --size 416 --model yolov4 --video 0 --output ./detections/results.avi
 
 # Evaluation cocotools
 
