@@ -21,10 +21,11 @@ pip install -r requirements.txt
 
 Mettre les poids d’entrainements dans le dossier data
 
-# Flux vidéo
 Transforme les poids en poids tensortflow.
 
 python save_model.py --weights ./data/yolo-obj_final.weights --output ./checkpoints/WeightTensortflow-416 --input_size 416 --model yolov4
+
+# Flux vidéo
 
 Lance l'analyse du flux vidéo 
 
