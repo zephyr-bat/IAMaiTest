@@ -1,4 +1,7 @@
 # IAMainTestGUILLERME_LEBRETON
+## Poids
+Nos poids sont téléchargable via se lien : 
+https://drive.google.com/file/d/1OwJcGpYkT1YrBKhGYj4VRfUJV2KvSsoh/view?usp=sharing
 
 ## Installation
 (Nécessite python V3.6)
@@ -25,13 +28,13 @@ Transforme les poids en poids tensortflow.
 
 python save_model.py --weights ./data/yolo-obj_final.weights --output ./checkpoints/custom-416 --input_size 416 --model yolov4
 
-# Flux vidéo
+## Flux vidéo
 
 Lance l'analyse du flux vidéo 
 
 python detect_video.py --weights ./checkpoints/custom-416 --size 416 --model yolov4 --video 0 --output ./detections/results.avi
 
-# Evaluation cocotools
+## Evaluation cocotools
 
 cd scripts
 
